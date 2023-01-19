@@ -21,3 +21,8 @@ a dictionary an dyou'll get a key error if the key is not found in the dict
 locate an element within a list or tuple based on its position (index).
 - The placement and lookup of an element within a dictionary uses a process known
 as hashing
+-> we copy a dictionary using .copy() ie thisdic = dict.copy()
+- .pop(keywor)removes the specified key word, .popitem() removes the last item in the dictionary
+- The del keyword removes the item with the specified key name:
+{ del dict['it']}
+- The clear() method empties the dictionary:
