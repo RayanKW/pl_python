@@ -1,0 +1,1 @@
+## Django uses MVT (Model View Template)

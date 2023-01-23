@@ -26,3 +26,12 @@ as hashing
 - The del keyword removes the item with the specified key name:
 { del dict['it']}
 - The clear() method empties the dictionary:
+## Object Oriented Programming
+- an object must have a name, attributes and methods. 
+- attributes describe the object while the method describe the set of operations that the object can perform.
+=> an instance of an object is a specific example of the object. eg we have an object parent. then we have 5 parents: jon, juma etc. an instnce of the parent is either jon or juma.
+=> an object must have the following components;
+ identity
+ behaviour
+ state
+- 
