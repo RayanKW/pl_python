@@ -114,3 +114,13 @@ class ConcreteClass(aClass):
 obj = ConcreteClass()
 obj.display()
 #The concrete class should implement all the abstract methods of the abstract class. if it fails then it is also an abstact class.
+
+## Method overriding
+class Dad:
+    def Transport(self):
+        print("cycle")
+class son(Dad):
+    def Transport(self):
+        print("bike")
+objj = Dad()
+objj.Transport()
