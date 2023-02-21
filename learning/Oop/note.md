@@ -6,7 +6,7 @@
 - polymorphism
 - Abstraction
 ## CLASS
->> It is a blueprint followed by objects. It is also a logical structure with a behaviour.
+> It is a blueprint followed by objects. It is also a logical structure with a behaviour.
 >> A class can have atttributes and functions(the functions are also called class methods)
 {attributes and methods are called class members}
 >> a class can have multiple objects.
