@@ -111,6 +111,8 @@ class aClass(ABC):
 class ConcreteClass(aClass):
     def display(self):
         print("Abstract Method")
+    def show(self):
+        print("abstract method")
 obj = ConcreteClass()
 obj.display()
 #The concrete class should implement all the abstract methods of the abstract class. if it fails then it is also an abstact class.
@@ -122,5 +124,5 @@ class Dad:
 class son(Dad):
     def Transport(self):
         print("bike")
-objj = Dad()
+objj = son()
 objj.Transport()

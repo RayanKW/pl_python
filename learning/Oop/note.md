@@ -15,13 +15,13 @@
 an oject can also have attributes and methods of the class.
 ## Abstraction
 + Hidding the implimentation details and showing the essential  details
-> The concrete class should implement all the abstract methods of the abstract class. if it fails then it is also an abstact class. see img
+> The concrete class should implement all the abstract methods of the abstract class. if it fails then it is also an abstact class. see error in img
 ![Alt text](resources/Screenshot%20from%202023-02-21%2016-03-52.png)
 ## Encapsulation
 + Wrapping up of data and funtion in a single entity
-Public - Accesed by any function in any class(low level data protection)
-protected - accessed by the only class the data was declared or inherited(medium)
-private - only class the data is declared(high level)
++ Public - Accesed by any function in any class(low level data protection)
++ protected - accessed by the only class the data was declared or inherited(medium)
++ private - only class the data is declared(high level) We use two underscores to make public access private. thats def __functionName or __variableName
 ## Inheritance
 Derived class(chilld) inherits the properties of the base class(parent).
 ### Single inheritance
